@@ -8,7 +8,7 @@ return {
   require 'plugins.mini',
   require 'plugins.nvim-treesitter',
   require 'plugins.todo-comments',
-  require 'plugins.windsurf',
+  -- require 'plugins.windsurf',
   require 'plugins.conform',
   require 'plugins.gitsigns',
   require 'plugins.indent-blankline',
@@ -20,5 +20,6 @@ return {
   require 'plugins.lualine',
   require 'plugins.toggleterm',
   require 'plugins.nvim-cmp',
+
   -- Add more here
 }

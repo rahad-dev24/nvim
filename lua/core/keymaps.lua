@@ -10,3 +10,4 @@ vim.keymap.set('n', '<C-j>', '<C-w><C-j>')
 vim.keymap.set('n', '<C-k>', '<C-w><C-k>')
 
 vim.keymap.set('n', '<C-x>', '<cmd>:bd<CR>', { desc = 'Buffer delete' })
+vim.keymap.set('n', '<C-q>', '<cmd>:qall<CR>', { desc = 'close nvim' })
