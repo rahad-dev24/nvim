@@ -20,6 +20,8 @@ return {
   require 'plugins.lualine',
   require 'plugins.toggleterm',
   require 'plugins.nvim-cmp',
-
+  require 'plugins.copilot',
+  require 'plugins.harpoon',
+  --require 'plugins.codex',
   -- Add more here
 }
