@@ -20,5 +20,10 @@ opt.list = true
 -- opt.listchars = { tab = '» ', trail = '·', nbsp = '␣' }
 opt.inccommand = 'split'
 opt.cursorline = true
-opt.scrolloff = 10
+opt.scrolloff = 0
 opt.confirm = true
+opt.foldmethod = 'expr'
+opt.foldexpr = 'v:lua.vim.treesitter.foldexpr()'
+opt.foldlevel = 99
+opt.foldenable = true
+opt.foldlevelstart = 99
