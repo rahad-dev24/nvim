@@ -18,6 +18,11 @@ return {
       list:remove()
     end, { desc = 'Harpoon: Remove current file' })
 
+    -- Clear all files
+    vim.keymap.set('n', '<leader>c', function()
+      list:clear()
+    end, { desc = 'Harpoon: Clear all files' })
+
     -- Remove specific index
     for i = 1, 10 do
       vim.keymap.set('n', '<leader>r' .. i, function()
