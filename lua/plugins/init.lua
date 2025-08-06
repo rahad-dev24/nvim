@@ -22,6 +22,7 @@ return {
   require 'plugins.nvim-cmp',
   require 'plugins.copilot',
   require 'plugins.harpoon',
+  require 'plugins.blame',
   --require 'plugins.codex',
   -- Add more here
 }
